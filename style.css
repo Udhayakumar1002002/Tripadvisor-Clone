@@ -1,0 +1,863 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Gabarito", serif;
+}
+
+/* navbar section */
+
+.head {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__s1 img {
+  width: 190px;
+  cursor: pointer;
+}
+
+.navbar__s2 {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.navbar__s2 p {
+  padding: 15px;
+}
+
+.navbar__s2 p:hover {
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.navbar__s3 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.button__sign {
+  padding: 15px;
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+}
+
+.button__sign:hover{
+  cursor: pointer;
+}
+
+/* section bar */
+
+.title-bar {
+  text-align: center;
+}
+
+.title-section {
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.title-section__desc {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.title__desc1,
+.title__desc2,
+.title__desc3,
+.title__desc4,
+.title__desc5,
+.title__desc6 p {
+  font-size: 18px;
+}
+
+.title__desc1,
+.title__desc2,
+.title__desc3,
+.title__desc4,
+.title__desc5,
+.title__desc6 {
+  padding: 7px;
+}
+
+.title__desc1 {
+  border-bottom: solid black 2px;
+}
+
+.title__desc1:hover {
+  border-bottom: solid grey 2px;
+  color: grey;
+}
+
+.title__desc2,
+.title__desc3,
+.title__desc4,
+.title__desc5,
+.title__desc6 {
+  border-bottom: solid white 2px;
+}
+
+.title__desc2:hover,
+.title__desc3:hover,
+.title__desc4:hover,
+.title__desc5:hover,
+.title__desc6:hover {
+  color: grey;
+  border-bottom: solid grey 2px;
+}
+
+.title-search {
+  margin-top: 20px;
+}
+
+/* search input */
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search__input {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 40px;
+  border: solid black 1px;
+}
+
+.search__s1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  width: 700px;
+  font-size: 20px;
+}
+
+.search__s1 input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  outline: none;
+}
+
+.search__s1 input:hover {
+  outline: none;
+}
+
+.search__s2 {
+  padding: 15px 20px;
+  background-color: #84e9bd;
+  border-radius: 40px;
+  font-size: 18px;
+}
+
+.search__s2:hover{
+  cursor: pointer;
+}
+
+/* sale image */
+
+.saleimage__img img {
+  width: 100%;
+  border-radius: 15px;
+  height: 600px;
+}
+
+.saleimage {
+  margin-top: 60px;
+}
+
+.saleimage__img {
+  position: relative;
+}
+
+.saleimage__title {
+  position: absolute;
+  top: 420px;
+  left: 30px;
+  color: white;
+  font-size: 18px;
+}
+
+.saleimage__title button {
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.saleimage__title button:hover{
+  cursor: pointer;
+}
+
+/* dining */
+
+.dining__title {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.dining__title p {
+  color: grey;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+/* dining image */
+
+.dining-image__img {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.arrow {
+  width: fit-content;
+  border: solid black 1px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 12px;
+  position: absolute;
+  top: 110px;
+  right: -10px;
+  font-size: medium;
+}
+
+.arrow:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.dining-image__opt1__img1 img,
+.dining-image__opt2__img2 img,
+.dining-image__opt3__img3 img,
+.dining-image__opt4__img4 img {
+  height: 250px;
+  width: 270px;
+  border-radius: 10px;
+}
+
+.dining-image__opt1__img1 img:hover,
+.dining-image__opt2__img2 img:hover,
+.dining-image__opt3__img3 img:hover,
+.dining-image__opt4__img4 img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.dining-image__opt1__img1,
+.dining-image__opt2__img2,
+.dining-image__opt3__img3,
+.dining-image__opt4__img4 {
+  position: relative;
+}
+
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  color: white;
+}
+
+.dining-image {
+  margin-top: 30px;
+}
+
+/* travel */
+
+.travel {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.travel p {
+  color: grey;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+/* travel image */
+
+.travel-image__img {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.arrow2 {
+  width: fit-content;
+  border: solid black 1px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 12px;
+  position: absolute;
+  right: -6px;
+  top: 208px;
+  font-size: medium;
+}
+
+.arrow2:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.travel-image__img__opt1 img {
+  width: 365px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.travel-image__img__opt1 img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.travel-image {
+  margin-top: 30px;
+}
+
+.card-desc {
+  padding: 10px;
+  text-align: center;
+}
+
+.card__name1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.card__name1 a:hover {
+  color: grey;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card__name2 {
+  margin-top: 10px;
+}
+
+.card__name2 a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.card__name2 a:hover {
+  color: grey;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card__name3 {
+  margin-top: 20px;
+}
+
+.card__items {
+  color: grey;
+}
+
+/* tour section */
+
+.tour {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.tour p {
+  color: grey;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+/* tour image */
+
+.tour-section__sale {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.tour-section__sale__img img {
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.tour-section__sale__img img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.card__tour {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.card__tour__desc p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.card__tour__num {
+  margin-top: 15px;
+}
+
+.card__tour__num p {
+  color: grey;
+}
+
+.card__tour__rupee {
+  font-size: 15px;
+}
+
+.tour-section {
+  margin-top: 30px;
+}
+
+.tour-section__sale__img {
+  width: 270px;
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+}
+
+.heart:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.arrow1 {
+  width: fit-content;
+  border: solid black 1px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 12px;
+  position: absolute;
+  top: 110px;
+  right: -10px;
+  font-size: medium;
+}
+
+.arrow1:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.header {
+  margin-top: 50px;
+  background-color: #f2f1ec;
+}
+
+.header-title {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 40px;
+}
+
+.head-section {
+  font-size: 15px;
+}
+
+.head-section h1 {
+  padding-top: 40px;
+}
+
+/* explore */
+
+.explore__sale {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.explore__sale__img img {
+  width: 365px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.explore__sale__img img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.explore__sale__img p {
+  width: 360px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.explore {
+  margin-top: 30px;
+}
+
+.explore__sale__img a {
+  color: black;
+  text-decoration: none;
+}
+
+.explore__sale__img a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+.explore__sale__img {
+  position: relative;
+}
+
+.explore__sale {
+  position: relative;
+}
+
+.arrow3 {
+  width: fit-content;
+  border: solid black 1px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 12px;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  font-size: medium;
+}
+
+.arrow3:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* dream trip */
+
+.dream-trip {
+  margin-top: 50px;
+}
+
+.dream-trip p {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.trip__sale {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.trip__sale__img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.trip__sale__img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.trip-section {
+  margin-top: 30px;
+}
+
+.trip__sale__img {
+  position: relative;
+}
+
+.card__trip {
+  position: absolute;
+  color: white;
+  top: 250px;
+  left: 10px;
+  font-size: 30px;
+}
+
+/* destination */
+
+.title-destination {
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.title-destination p {
+  color: grey;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.destination__sale {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.destination__sale__img img {
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.destination {
+  margin-top: 30px;
+}
+
+.destination__sale__img {
+  position: relative;
+}
+
+.card__dest {
+  position: absolute;
+  color: white;
+  top: 180px;
+  left: 10px;
+  font-size: 30px;
+}
+
+.destination__sale__img img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.destination-section {
+  position: relative;
+}
+
+.arrow4 {
+  width: fit-content;
+  border: solid black 1px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 12px;
+  position: absolute;
+  top: 120px;
+  right: -8px;
+  font-size: medium;
+}
+
+.arrow4:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.series {
+  background-color: #f2f2f2;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+.series-section {
+  display: flex;
+  gap: 100px;
+}
+
+.series__sale img {
+  width: 500px;
+  height: 500px;
+}
+
+.lab {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.lab__sale img {
+  width: 25px;
+  height: 25px;
+}
+
+.lab__sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.lab__sale p {
+  color: grey;
+}
+
+.lab__sale a {
+  color: grey;
+}
+
+.series__title h2 {
+  margin-top: 30px;
+}
+
+.series__title p {
+  margin-top: 10px;
+  color: grey;
+}
+
+.button__learn button {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+.button__learn button:hover {
+  cursor: pointer;
+}
+
+.winner__sale img {
+  width: 100%;
+  height: 700px;
+}
+
+.winner__img img {
+  width: 60px;
+  height: 60px;
+}
+
+.winner {
+  margin-top: 70px;
+}
+
+.winner__sale {
+  position: relative;
+}
+
+.winner__img {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  color: white;
+  font-size: 50px;
+}
+
+.winner__img h1 {
+  font-size: 50px;
+}
+
+.winner__img p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.winner__img button {
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-top: 15px;
+  font-weight: bolder;
+}
+
+.winner__img button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #f2f1ec;
+  margin-top: 50px;
+}
+
+.footer-section {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 30px;
+}
+
+.footer-option{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-desc{
+  display: flex;
+  gap: 40px;
+}
+
+
+
+.footer-desc p{
+margin: 15px;
+}
+
+.footer-desc h6{
+  margin: 15px;
+  font-size: 14px;
+  color: grey;
+  font-weight: lighter;
+}
+
+.footer-desc a{
+  color: black;
+  text-decoration: none;
+}
+
+.footer-desc a:hover{
+  text-decoration: underline;
+  color: grey;
+}
+
+.footer-desc1 h6{
+margin: 15px;
+  font-size: 14px;
+  color: grey;
+  font-weight: lighter;
+}
+
+.footer-desc1 p{
+  margin: 15px;
+}
+
+
+
+
+
