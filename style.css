@@ -900,9 +900,13 @@ body {
   cursor: pointer;
 }
 
+.arrow,.arrow1,.arrow2,.arrow3,.arrow4{
+  display: none;
+}
+
 /* media query */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .arrow {
     display: none;
   }
