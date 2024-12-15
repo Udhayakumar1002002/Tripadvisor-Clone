@@ -900,26 +900,24 @@ body {
   cursor: pointer;
 }
 
-.arrow,.arrow1,.arrow2,.arrow3,.arrow4{
+.arrow,
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4 {
   display: none;
 }
 
 /* media query */
 
-@media screen and (max-width: 1200px) {
-  .arrow {
-    display: none;
+@media screen and (max-width: 800px) {
+  .series__sale img {
+    width: 400px;
+    height: 400px;
   }
 
-  .arrow1 {
-    display: none;
-  }
-
-  .arrow3 {
-    display: none;
-  }
-  .arrow4 {
-    display: none;
+   .series-section {
+    display: block;
   }
 }
 
